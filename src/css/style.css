@@ -1,0 +1,22 @@
+:root{
+    --azul-oscuro:#181E4B;
+    --blanco:#FFFFFF;
+    --rosa-oscurito:#c594aa;
+    --rosa-medio:#fdcae1;
+    --rosa-claro:#ffe5f0;
+    --azul-oscurito:#171a4a;
+    --morado-medio:#2f2c79;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    /* display: none;  --------------PARA APAGARLO */
+    background-color: var(--azul-oscurito);
+    color:var(--rosa-claro);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
