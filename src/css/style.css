@@ -1,22 +1,35 @@
-:root{
-    --azul-oscuro:#181E4B;
-    --blanco:#FFFFFF;
-    --rosa-oscurito:#c594aa;
-    --rosa-medio:#fdcae1;
-    --rosa-claro:#ffe5f0;
-    --azul-oscurito:#171a4a;
-    --morado-medio:#2f2c79;
+/* https://fonts.google.com/selection/embed */
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&display=swap');
+
+:root {
+    --azul-oscuro: #181E4B;
+    --blanco: #FFFFFF;
+    --rosa-oscurito: #c594aa;
+    --rosa-medio: #fdcae1;
+    --rosa-claro: #ffe5f0;
+    --azul-oscurito: #171a4a;
+    --morado-medio: #2f2c79;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Edu QLD Beginner", cursive;
 }
-.header{
+
+.header {
     /* display: none;  --------------PARA APAGARLO */
     background-color: var(--azul-oscurito);
-    color:var(--rosa-claro);
+    color: var(--rosa-claro);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 5px 10px;
+    /* padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px; */
+
 }
