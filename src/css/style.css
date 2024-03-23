@@ -85,3 +85,22 @@ img {
     height: 150px;
     width: 100px;
 }
+
+
+
+
+
+.final-parte {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 25px;
+}
