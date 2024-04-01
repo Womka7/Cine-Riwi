@@ -31,11 +31,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 5px 10px;
-    /* padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px; */
-
 }
 
 .nav {
@@ -50,10 +45,11 @@
 
 .nav a {
     color: var(--rosa-claro);
-    /* text-decoration: none; PARA QUITAR LA RAYITA DEL NAV Y PARA QUITAR LAS VIÑETAS DE LAS LISTAS Y ASI*/
     text-decoration: none;
-
+    display: flex;
+    
 }
+
 
 .estreno-actual {
     display: flex;
@@ -86,7 +82,8 @@
     background-color: var(--rosa-claro);
     border: 5px solid var(--azul-oscurito);
     padding: 20px;
-    width: 25%;
+    min-width: 200px;
+    max-width: 400px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 80);
 }
@@ -138,7 +135,7 @@
 }
 
 .Form-contacto {
-    width: 100%; 
+    width: 80%; 
     padding: 20px;
 }
 
@@ -150,6 +147,7 @@
 
 .Form-contacto input[type="text"],
 .Form-contacto input[type="email"],
+.Form-contacto input[type="file"],
 .Form-contacto select,
 .Form-contacto textarea,
 .Form-contacto button {
@@ -178,6 +176,7 @@
     border: 2px solid var(--rosa-medio);
     border-radius: 25px;
 }
+
 .footer {
     background-color: var(--azul-oscurito);
     color: var(--rosa-claro);
@@ -189,7 +188,6 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-
 }
 
 .redes {
@@ -200,4 +198,7 @@
 
 .redes a {
     color: var(--rosa-claro);
+}
+.final-parte span{
+    font-size: x-small;
 }
